@@ -1,0 +1,13 @@
+[package]
+name = "todo-list"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rusqlite = { version = "0.28.0", features = ["bundled"] }
+bcrypt = "0.14.0"
+rpassword = "7.0.1"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+crossterm = "0.25"
+anyhow = "1.0.92"
